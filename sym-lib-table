@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "RPi_Hat")(type "Legacy")(uri "${KIPRJMOD}/lib/RPi_Hat/RPi_Hat.lib")(options "")(descr ""))
+  (lib (name "ADS1115_Module")(type "KiCad")(uri "${KIPRJMOD}/lib/ADS1115_Module/ADS1115_Module.kicad_sym")(options "")(descr ""))
+)

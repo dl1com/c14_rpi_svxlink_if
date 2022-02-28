@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "RPi_Hat")(type "KiCad")(uri "${KIPRJMOD}/lib/RPi_Hat/RPi_Hat.pretty")(options "")(descr ""))
+  (lib (name "ADS1115_Module")(type "KiCad")(uri "${KIPRJMOD}/lib/ADS1115_Module/ADS1115_Module.pretty")(options "")(descr ""))
+)
