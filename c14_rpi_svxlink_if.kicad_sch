@@ -1818,7 +1818,6 @@
     )
   )
 
-
   (junction (at 88.9 69.85) (diameter 0) (color 0 0 0 0)
     (uuid 185b883b-1d87-42f8-88f4-30d54c6689e5)
   )
@@ -1930,7 +1929,7 @@
   (no_connect (at 238.76 74.93) (uuid 56688aef-c64c-4266-902c-95ff5503e637))
   (no_connect (at 238.76 77.47) (uuid 56688aef-c64c-4266-902c-95ff5503e638))
   (no_connect (at 86.36 36.83) (uuid 5e597a99-b966-40ca-93cf-60af0be59632))
-  (no_connect (at 86.36 39.37) (uuid 5e597a99-b966-40ca-93cf-60af0be59632))
+  (no_connect (at 86.36 39.37) (uuid 5e597a99-b966-40ca-93cf-60af0be59633))
   (no_connect (at 238.76 69.85) (uuid 622605aa-5b95-4aa7-b156-28556d15096b))
   (no_connect (at 86.36 44.45) (uuid 6d7cf6c0-20f2-446e-be01-624853251ef6))
   (no_connect (at 38.1 39.37) (uuid a6b18b0a-040b-4abe-8dd1-e62f1d441492))
@@ -3776,7 +3775,7 @@
     (property "Value" "DB9F" (id 1) (at 265.43 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" (id 2) (at 267.97 114.3 0)
+    (property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" (id 2) (at 267.97 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 267.97 114.3 0)
@@ -4715,7 +4714,7 @@
       (reference "J6") (unit 1) (value "Conn_01x04") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
     )
     (path "/8ca3e20d-bcc7-4c5e-9deb-562dfed9fecb"
-      (reference "J7") (unit 1) (value "DB9F") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm")
+      (reference "J7") (unit 1) (value "DB9F") (footprint "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm")
     )
     (path "/a3610b22-8fd5-480c-8522-b664b5b10a65"
       (reference "Q1") (unit 1) (value "BC847") (footprint "Package_TO_SOT_SMD:SOT-23")
