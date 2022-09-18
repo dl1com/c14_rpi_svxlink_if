@@ -63,7 +63,7 @@
       36
     ],
     "visible_layers": "ffc3cff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "c14_rpi_svxlink_if.kicad_prl",
