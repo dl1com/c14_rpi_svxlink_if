@@ -40,6 +40,6 @@ rescue-backup/
 bom/
 
 # Gerber export output
-out/
+export/
 
 # End of https://www.toptal.com/developers/gitignore/api/kicad
