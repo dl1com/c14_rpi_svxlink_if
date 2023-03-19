@@ -67,3 +67,5 @@ An example project which uses this board can be found at https://charly14.de/svx
 
 ## License
 This repository is licensed under the CC-BY-SA. See the LICENSE file for details.
+
+Concept ist based on the [SVXLink Interface by Aleksander, S65AL](http://lea.hamradio.si/~s57nan/ham_radio/svx_intf_rpi/svx_intf_rpi.html)
