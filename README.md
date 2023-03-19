@@ -12,6 +12,55 @@ The repository contains the following files and directories:
 
 ![image](https://user-images.githubusercontent.com/1631996/226144165-9e673233-b85d-437a-a232-d62e1d56a006.png)
 
+## Features
+
+The interface offers the following features:
+
+* Generic DB9 connector for interfacing to transceiver(s)
+* Isolated audio rx/tx and signal paths (PTT, Squelch)
+* Audio levels can be set with potis
+* Fan control output and tacho input
+* Telemetry inputs:
+  * ADS1115 ADC (i.e. for voltage or RSSI measurement)
+  * I2C connectors (i.e. for temperature sensors)
+
+We deliberately decided against placing a soundcard IC on the interface. We use an external, generic USB soundcard instead, as these type of soundcards are very easy and cheap to get on various market places.
+
+## Signal mapping
+
+### DB9 Connector
+
+| Number | Name       |
+| ------ | ---------- |
+| 1      | SQL_DET-   |
+| 2      | SQL_DET+   |
+| 3      | RSSI       |
+| 4      | RX_AUDIO- |
+| 5      | RX_AUDIO+ |
+| 6      | PTT_GND   |
+| 7      | PTT+      |
+| 8      | TX_AUDIO- |
+| 9      | TX_AUDIO+ |
+
+
+### RPi
+
+| GPIO    | Pin | Function   |
+| ------- | --- | ---------- |
+| GPIO17  | 11  | PTT        |
+| GPIO22  | 15  | SQL Det.   |
+| GPIO18  | 12  | Fan Ctrl   |
+| GPIO24  | 18  | Fan Tacho  |
+
+
+### Jumper
+
+| JP  | Function                |
+| --- | ----------------------- |
+| JP1 | Bypass PWM (always on)  |
+| JP2 | Enable clipping diodes  |
+
+
 ## Usage
 
 An example project which uses this board can be found at https://charly14.de/svxlink-installation-und-konfiguration/
