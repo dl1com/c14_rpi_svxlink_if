@@ -6,8 +6,8 @@ This repository contains the code and instructions for a custom interface betwee
 ## Repository contents
 The repository contains the following files and directories:
 
-* c14_rpi_svxlink_if.kicad_pcb: the KiCAD project for the custom PCB design.
-* LICENSE: the license file for the repository (CC-BY-SA).
+* [c14_rpi_svxlink_if.kicad_pcb](./c14_rpi_svxlink_if.kicad_pcb): the KiCAD project for the custom PCB design.
+* [LICENSE.md](./LICENSE.md): the license file for the repository (CC-BY-SA).
 * README.md: this file.
 
 ![image](https://user-images.githubusercontent.com/1631996/226144165-9e673233-b85d-437a-a232-d62e1d56a006.png)
